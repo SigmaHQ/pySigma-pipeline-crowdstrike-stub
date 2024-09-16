@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pysigma-pipeline-crowdstrike"
+version = "2.0.0"
+description = "Placeholder for legacy CrowdStrike pipeline project obsoleted by backend"
+authors = ["Thomas Patzke <thomas@patzke.org>"]
+license = "LGPL-2.1-only"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pysigma-backend-crowdstrike = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
