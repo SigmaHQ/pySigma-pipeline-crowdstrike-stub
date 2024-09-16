@@ -25,4 +25,4 @@ jobs:
       - name: Install dependencies
         run: poetry install
       - name: Run tests
-        run: poetry run pytest --cov=sigma --cov-report term --cov-report xml:cov.xml -vv
+        run: poetry run pytest
