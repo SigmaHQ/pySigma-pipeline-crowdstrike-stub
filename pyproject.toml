@@ -5,11 +5,13 @@ description = "Placeholder for legacy CrowdStrike pipeline project obsoleted by 
 authors = ["Thomas Patzke <thomas@patzke.org>"]
 license = "LGPL-2.1-only"
 readme = "README.md"
+packages = [
+    { include = "sigma" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 pysigma-backend-crowdstrike = "*"
-
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
